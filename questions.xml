@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<questions>
+	<question type="OPTIONAL">
+		<name>tut vopros?</name>
+		<answer>Tut otvet!</answer>
+		<coeff>2</coeff>
+		<options>
+			<option>Option 1</option>
+			<option>Option 2</option>
+			<option>Option 3</option>
+			<option>Option 4</option>
+		</options>
+	</question>
+	<question type="OPTIONAL">
+		<name>tut vopros 2?</name>
+		<answer>Tut otvet 2!</answer>
+		<coeff>3</coeff>
+		<options>
+			<option>Option 11</option>
+			<option>Option 12</option>
+			<option>Option 13</option>
+			<option>Option1 4</option>
+		</options>
+	</question>
+	<question type="SIMPLE">
+		<name>tut vopros3?</name>
+		<answer>Tut otvet3!</answer>
+		<coeff>11</coeff>
+	</question>
+</questions>	
