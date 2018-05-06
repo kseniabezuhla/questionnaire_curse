@@ -85,7 +85,7 @@ public class QuestionReader {
         optionQuestion.setCorrectAnswer(eElement.getElementsByTagName("answer").item(0).getTextContent());
         optionQuestion.setQuestion(eElement.getElementsByTagName("name").item(0).getTextContent());
         Node options = eElement.getElementsByTagName("options").item(0);
-        NodeList nList = eElement.getElementsByTagName("option");
+        NodeList nList = eElement.getElementsByTagName("option"); // возможно на options вызывать надо ((Element)options).getElementsByTagName("option");
         for (int temp = 0; temp < nList.getLength(); temp++) {
             Node nNode = nList.item(temp);
             String content = nNode.getTextContent();

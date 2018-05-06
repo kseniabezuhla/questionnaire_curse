@@ -13,7 +13,7 @@ public class QuestionUtils {
     }
 
     public static List<Question> getQuestions() {
-        QuestionReader questionReader= new QuestionReader();
+        QuestionReader questionReader = new QuestionReader();
         questionReader.readXml(new File("questions.xml"));
         return questionReader.getQuestions();
     }

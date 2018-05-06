@@ -38,6 +38,7 @@ public class QuestionController implements Initializable {
         questions = QuestionUtils.getQuestions();
         questionStatistics = new QuestionStatistics();
         loadQuestion();
+        currentQuestionNumber++;
     }
 
 
@@ -49,14 +50,14 @@ public class QuestionController implements Initializable {
     @FXML
     private void loadNextQuestion(ActionEvent event) {
         loadQuestion();
+        addAnswerStatistics();
+        currentQuestionNumber++;
     }
 
     private void loadQuestion() {
         if (currentQuestionNumber < questions.size()) {
             currentQuestion = questions.get(currentQuestionNumber);
             questionTitle.setText(currentQuestion.getQuestion());
-            addAnswerStatistics();
-            currentQuestionNumber++;
         }
         else{
             //TODO Изменить на нормальное поведение при последнем вопросе
