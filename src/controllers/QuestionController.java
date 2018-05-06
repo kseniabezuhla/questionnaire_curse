@@ -27,6 +27,8 @@ public class QuestionController implements Initializable {
     @FXML
     private TextArea questionTitle;
 
+
+
     @FXML
     private Button nextBtn;
 
@@ -58,6 +60,7 @@ public class QuestionController implements Initializable {
         if (currentQuestionNumber < questions.size()) {
             currentQuestion = questions.get(currentQuestionNumber);
             questionTitle.setText(currentQuestion.getQuestion());
+            //TODO add function to add options or text field
         }
         else{
             //TODO Изменить на нормальное поведение при последнем вопросе
