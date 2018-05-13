@@ -6,7 +6,9 @@ import java.util.List;
 public class QuestionStatistics {
 
     private int numberOfCorrect = 0;
+
     private double totalScore = 0d;
+
     private List<Boolean> questionAnswers;
 
     public QuestionStatistics() {

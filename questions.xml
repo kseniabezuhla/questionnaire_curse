@@ -2,18 +2,16 @@
 <questions>
 	<question type="OPTIONAL">
 		<name>tut vopros?</name>
-		<answer>Tut otvet!</answer>
+		<answer>Option 1</answer>
 		<coeff>2</coeff>
 		<options>
 			<option>Option 1</option>
 			<option>Option 2</option>
-			<option>Option 3</option>
-			<option>Option 4</option>
 		</options>
 	</question>
 	<question type="OPTIONAL">
 		<name>tut vopros 2?</name>
-		<answer>Tut otvet 2!</answer>
+		<answer>Option 13</answer>
 		<coeff>3</coeff>
 		<options>
 			<option>Option 11</option>
@@ -24,7 +22,7 @@
 	</question>
 	<question type="SIMPLE">
 		<name>tut vopros3?</name>
-		<answer>Tut otvet3!</answer>
+		<answer>answer</answer>
 		<coeff>11</coeff>
 	</question>
 </questions>	
