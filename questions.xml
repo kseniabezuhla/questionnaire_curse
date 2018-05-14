@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<questions>
+	<question type="OPTIONAL">
+		<name>Java регистро-чувствительный язык программирования?</name>
+		<answer>Да</answer>
+		<coeff>2</coeff>
+		<options>
+			<option>Да</option>
+			<option>Нет</option>
+
+		</options>
+	</question>
+	<question type="OPTIONAL">
+		<name>Принцип объектно-ориентированного программирования, заключается в объединении атрибутов и методов объекта с целью обеспечения сохранности данных, называется:</name>
+		<answer>Инкапсуляция.</answer>
+		<coeff>2</coeff>
+		<options>
+			<option>Инициализация.</option>
+			<option>Инкапсуляция.</option>
+			<option>Наследование.</option>
+		</options>
+	</question>
+	<question type="OPTIONAL">
+		<name>Какая из перечисленных функций не может быть конструктором?</name>
+		<answer>void String ()</answer>
+		<coeff>2</coeff>
+		<options>
+			<option>void String ()</option>
+			<option>String ();</option>
+			<option>String (const int a)</option>
+
+		</options>
+	</question>
+	<question type="SIMPLE">
+		<name>Один из четырёх важнейших механизмов объектно-ориентированного программирования, позволяющий описать новый класс на основе уже существующего, при этом свойства и функциональность родительского класса заимствуются новым классом.</name>
+		<answer>Наследование</answer>
+		<coeff>4</coeff>
+	</question>
+</questions>	

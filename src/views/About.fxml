@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Pane prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: rgba(175,222,206,0.51);">
+            <children>
+                <Label alignment="TOP_CENTER" layoutX="43.0" layoutY="59.0" prefHeight="116.0" prefWidth="417.0" text="Данная программа предназначена для проверки знаний студентов. На каждый вопрос есть только ОДИН вариант  ответа. Чтобы ответить на вопрос, вам нужно перетянуть  один из предложенных вариантов в специально отведенное окно или ввести ответ самому. " textAlignment="JUSTIFY" wrapText="true">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="86.0" layoutY="205.0" prefHeight="61.0" prefWidth="330.0" text="Выполнили студентки группы 6.04.51.16.01 Деточенко Ирина и Безуглая Ксения" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+    </children>
+</VBox>
