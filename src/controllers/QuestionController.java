@@ -157,15 +157,18 @@ public class QuestionController implements Initializable {
             currentQuestion = questions.get(currentQuestionNumber);
             questionTitle.setText(currentQuestion.getQuestion());
             clearCreateGrid();
+
             if (currentQuestion instanceof OpenQuestion) {
                 loadTextArea();
             } else {
+                ((OptionQuestion)currentQuestion).shuffleOptions();
                 loadRadioButtons((OptionQuestion) currentQuestion);
             }
         } else {
             Stage stage = (Stage) nextBtn.getScene().getWindow();
             stage.close();
             showStatistics();
+
         }
     }
 

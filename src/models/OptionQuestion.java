@@ -1,6 +1,7 @@
 package models;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class OptionQuestion extends Question {
@@ -15,6 +16,10 @@ public class OptionQuestion extends Question {
     public OptionQuestion(String question, Integer questionNumber, String correctAnswer, Double coefficient) {
         super(question, questionNumber, correctAnswer, coefficient);
         this.answerOptions = new ArrayList<>();
+    }
+    public void shuffleOptions()
+    {
+        Collections.shuffle(answerOptions);
     }
 
     public OptionQuestion() {
