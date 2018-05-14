@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e202844e-3782-47bf-945d-62e14dd107db" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/controllers/QuestionController.java" afterPath="$PROJECT_DIR$/src/controllers/QuestionController.java" />
-      <change beforePath="$PROJECT_DIR$/src/models/OptionQuestion.java" afterPath="$PROJECT_DIR$/src/models/OptionQuestion.java" />
+      <change beforePath="$PROJECT_DIR$/src/views/QuestionWindow.fxml" afterPath="$PROJECT_DIR$/src/views/QuestionWindow.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +15,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="QuestionWindow.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/QuestionWindow.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="OptionQuestion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/OptionQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuestionController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuestionController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/QuestionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="163" column="67" lean-forward="true" selection-start-line="163" selection-start-column="67" selection-end-line="163" selection-end-column="67" />
+            <state relative-caret-position="467">
+              <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,16 +121,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -146,9 +149,9 @@
         <option value="$PROJECT_DIR$/questions.xml" />
         <option value="$PROJECT_DIR$/src/views/About.fxml" />
         <option value="$PROJECT_DIR$/src/views/FirstWindow.fxml" />
-        <option value="$PROJECT_DIR$/src/views/QuestionWindow.fxml" />
         <option value="$PROJECT_DIR$/src/models/OptionQuestion.java" />
         <option value="$PROJECT_DIR$/src/controllers/QuestionController.java" />
+        <option value="$PROJECT_DIR$/src/views/QuestionWindow.fxml" />
       </list>
     </option>
   </component>
@@ -158,7 +161,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="108" />
     <option name="y" value="-19" />
     <option name="width" value="974" />
@@ -380,15 +383,15 @@
       <updated>1526219960338</updated>
       <workItem from="1526219961863" duration="17584000" />
       <workItem from="1526296990434" duration="2167000" />
-      <workItem from="1526312034872" duration="9685000" />
+      <workItem from="1526312034872" duration="10190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29436000" />
+    <option name="totallyTimeSpent" value="29941000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -400,8 +403,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27056277" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27056277" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32409382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -620,17 +623,6 @@
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/QuestionWindow.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
     </entry>
@@ -1016,10 +1008,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/QuestionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="163" column="67" lean-forward="true" selection-start-line="163" selection-start-column="67" selection-end-line="163" selection-end-column="67" />
+        <state relative-caret-position="467">
+          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/QuestionWindow.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
   </component>

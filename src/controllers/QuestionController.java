@@ -34,6 +34,8 @@ public class QuestionController implements Initializable {
 
     private int currentQuestionNumber = 0;
 
+    private List<Node> currentNodesList;
+
     private Question currentQuestion;
 
     private QuestionStatistics questionStatistics;
@@ -44,7 +46,8 @@ public class QuestionController implements Initializable {
     @FXML
     private ToggleGroup currentToggleGroup;
 
-    private List<Node> currentNodesList;
+    @FXML
+    private Label errorMessage;
 
     @FXML
     private GridPane answersGrid;
@@ -141,7 +144,12 @@ public class QuestionController implements Initializable {
 
     private boolean handleOptionQuestion() {
         if (currentToggleGroup.selectedToggleProperty().getValue() == null)
-            return false; // handle situation when nothing is checked: add message or something else
+        {
+            errorMessage.setVisible(true);
+            return false;
+        }
+
+
         String userAnswer = (String) currentToggleGroup.getSelectedToggle().getUserData();
         currentToggleGroup.getSelectedToggle().setSelected(false);
         addAnswerStatistics(userAnswer);
@@ -157,7 +165,7 @@ public class QuestionController implements Initializable {
             currentQuestion = questions.get(currentQuestionNumber);
             questionTitle.setText(currentQuestion.getQuestion());
             clearCreateGrid();
-
+            errorMessage.setVisible(false);
             if (currentQuestion instanceof OpenQuestion) {
                 loadTextArea();
             } else {
